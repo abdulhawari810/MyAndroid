@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Android</string>
+    <string name="close_drawer">Close Navigation</string>
+    <string name="open_drawer">Open Navigation</string>
+    <style name="Theme.MyAndroid" parent="Theme.Material3.DayNight.NoActionBar"/>
+</resources>

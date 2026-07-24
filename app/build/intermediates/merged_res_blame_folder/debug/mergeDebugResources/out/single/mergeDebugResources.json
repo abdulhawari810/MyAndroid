@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.programmerid.myandroid.app-debug-43:/layout_nav_header.xml.flat",
+        "source": "com.programmerid.myandroid.app-main-45:/layout/nav_header.xml"
+    },
+    {
+        "merged": "com.programmerid.myandroid.app-debug-43:/layout_activity_main.xml.flat",
+        "source": "com.programmerid.myandroid.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.programmerid.myandroid.app-debug-43:/menu_drawer_menu.xml.flat",
+        "source": "com.programmerid.myandroid.app-main-45:/menu/drawer_menu.xml"
+    }
+]

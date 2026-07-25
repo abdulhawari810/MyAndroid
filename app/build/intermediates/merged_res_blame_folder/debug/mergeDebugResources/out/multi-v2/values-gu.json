@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.programmerid.myandroid.app-mergeDebugResources-41:/values-gu/values-gu.xml",
+            "outputFile": "com.programmerid.myandroid.app-mergeDebugResources-45:/values-gu/values-gu.xml",
             "map": [
                 {
                     "source": "/data/data/com.termux/files/home/.gradle/caches/8.10/transforms/7473b26b7bd9155a488cfce14ec9a47f/transformed/navigation-ui-2.8.0/res/values-gu/values-gu.xml",

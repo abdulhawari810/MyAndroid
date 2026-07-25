@@ -1,26 +1,34 @@
 [
     {
-        "merged": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-mergeDebugResources-42:/layout/activity_main.xml",
-        "source": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-main-45:/layout/activity_main.xml"
+        "merged": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-mergeDebugResources-46:/layout/fragment_home.xml",
+        "source": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-main-49:/layout/fragment_home.xml"
     },
     {
-        "merged": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-mergeDebugResources-42:/layout/nav_header.xml",
-        "source": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-main-45:/layout/nav_header.xml"
+        "merged": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-mergeDebugResources-46:/layout/nav_header.xml",
+        "source": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-main-49:/layout/nav_header.xml"
     },
     {
-        "merged": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-mergeDebugResources-42:/layout/fragment_settings.xml",
-        "source": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-main-45:/layout/fragment_settings.xml"
+        "merged": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-mergeDebugResources-46:/layout/activity_main.xml",
+        "source": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-main-49:/layout/activity_main.xml"
     },
     {
-        "merged": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-mergeDebugResources-42:/layout/fragment_about.xml",
-        "source": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-main-45:/layout/fragment_about.xml"
+        "merged": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-mergeDebugResources-46:/layout/fragment_about.xml",
+        "source": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-main-49:/layout/fragment_about.xml"
     },
     {
-        "merged": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-mergeDebugResources-42:/layout/fragment_home.xml",
-        "source": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-main-45:/layout/fragment_home.xml"
+        "merged": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-mergeDebugResources-46:/layout/activity_splash.xml",
+        "source": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-main-49:/layout/activity_splash.xml"
     },
     {
-        "merged": "com.programmerid.myandroid.app-mergeDebugResources-42:/layout/fragment_home.xml",
-        "source": "com.programmerid.myandroid.app-main-45:/layout/fragment_home.xml"
+        "merged": "com.programmerid.myandroid.app-mergeDebugResources-46:/layout/item_transaksi.xml",
+        "source": "com.programmerid.myandroid.app-main-49:/layout/item_transaksi.xml"
+    },
+    {
+        "merged": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-mergeDebugResources-46:/layout/fragment_settings.xml",
+        "source": "/data/data/com.termux/files/home/.gradle/daemon/8.10/com.programmerid.myandroid.app-main-49:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.programmerid.myandroid.app-mergeDebugResources-46:/layout/fragment_home.xml",
+        "source": "com.programmerid.myandroid.app-main-49:/layout/fragment_home.xml"
     }
 ]

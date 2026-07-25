@@ -1,10 +1,10 @@
-package com.programmerid.myandroid;
+package com.programmerid.myandroid.activities;
 
 import android.os.Bundle;
+import com.programmerid.myandroid.R;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.programmerid.myandroid.databinding.ActivityMainBinding;
 import com.programmerid.myandroid.fragments.HomeFragment;
 import com.programmerid.myandroid.fragments.AboutFragment;
@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState)
 	{
+    
+    
         super.onCreate(savedInstanceState);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
@@ -44,7 +46,7 @@ public class MainActivity extends AppCompatActivity
         toggle.syncState();
         loadFragment(new HomeFragment());
 
-		binding.navigationView.setNavigationItemSelectedListener(> {
+		binding.navigationView.setNavigationItemSelectedListener(item-> {
 
 			if (item.getItemId() == R.id.nav_home)
 			{

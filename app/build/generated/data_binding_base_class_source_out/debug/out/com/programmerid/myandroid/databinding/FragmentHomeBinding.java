@@ -4,12 +4,16 @@ package com.programmerid.myandroid.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.button.MaterialButton;
+import com.google.android.material.textfield.TextInputEditText;
 import com.programmerid.myandroid.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -23,17 +27,53 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final MaterialButton aboutPage;
 
   @NonNull
-  public final MaterialButton btnStart;
+  public final MaterialButton btnExport;
 
   @NonNull
-  public final MaterialButton tvStatus;
+  public final MaterialButton btnKeLaporan;
+
+  @NonNull
+  public final MaterialButton btnSimpan;
+
+  @NonNull
+  public final TextInputEditText etCatatan;
+
+  @NonNull
+  public final TextInputEditText etJumlah;
+
+  @NonNull
+  public final TextInputEditText etKategori;
+
+  @NonNull
+  public final RadioButton rbPemasukan;
+
+  @NonNull
+  public final RadioButton rbPengeluaran;
+
+  @NonNull
+  public final RadioGroup rgJenis;
+
+  @NonNull
+  public final RecyclerView rvTransaksi;
 
   private FragmentHomeBinding(@NonNull ScrollView rootView, @NonNull MaterialButton aboutPage,
-      @NonNull MaterialButton btnStart, @NonNull MaterialButton tvStatus) {
+      @NonNull MaterialButton btnExport, @NonNull MaterialButton btnKeLaporan,
+      @NonNull MaterialButton btnSimpan, @NonNull TextInputEditText etCatatan,
+      @NonNull TextInputEditText etJumlah, @NonNull TextInputEditText etKategori,
+      @NonNull RadioButton rbPemasukan, @NonNull RadioButton rbPengeluaran,
+      @NonNull RadioGroup rgJenis, @NonNull RecyclerView rvTransaksi) {
     this.rootView = rootView;
     this.aboutPage = aboutPage;
-    this.btnStart = btnStart;
-    this.tvStatus = tvStatus;
+    this.btnExport = btnExport;
+    this.btnKeLaporan = btnKeLaporan;
+    this.btnSimpan = btnSimpan;
+    this.etCatatan = etCatatan;
+    this.etJumlah = etJumlah;
+    this.etKategori = etKategori;
+    this.rbPemasukan = rbPemasukan;
+    this.rbPengeluaran = rbPengeluaran;
+    this.rgJenis = rgJenis;
+    this.rvTransaksi = rvTransaksi;
   }
 
   @Override
@@ -69,19 +109,69 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.btnStart;
-      MaterialButton btnStart = ViewBindings.findChildViewById(rootView, id);
-      if (btnStart == null) {
+      id = R.id.btnExport;
+      MaterialButton btnExport = ViewBindings.findChildViewById(rootView, id);
+      if (btnExport == null) {
         break missingId;
       }
 
-      id = R.id.tvStatus;
-      MaterialButton tvStatus = ViewBindings.findChildViewById(rootView, id);
-      if (tvStatus == null) {
+      id = R.id.btnKeLaporan;
+      MaterialButton btnKeLaporan = ViewBindings.findChildViewById(rootView, id);
+      if (btnKeLaporan == null) {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ScrollView) rootView, aboutPage, btnStart, tvStatus);
+      id = R.id.btnSimpan;
+      MaterialButton btnSimpan = ViewBindings.findChildViewById(rootView, id);
+      if (btnSimpan == null) {
+        break missingId;
+      }
+
+      id = R.id.etCatatan;
+      TextInputEditText etCatatan = ViewBindings.findChildViewById(rootView, id);
+      if (etCatatan == null) {
+        break missingId;
+      }
+
+      id = R.id.etJumlah;
+      TextInputEditText etJumlah = ViewBindings.findChildViewById(rootView, id);
+      if (etJumlah == null) {
+        break missingId;
+      }
+
+      id = R.id.etKategori;
+      TextInputEditText etKategori = ViewBindings.findChildViewById(rootView, id);
+      if (etKategori == null) {
+        break missingId;
+      }
+
+      id = R.id.rbPemasukan;
+      RadioButton rbPemasukan = ViewBindings.findChildViewById(rootView, id);
+      if (rbPemasukan == null) {
+        break missingId;
+      }
+
+      id = R.id.rbPengeluaran;
+      RadioButton rbPengeluaran = ViewBindings.findChildViewById(rootView, id);
+      if (rbPengeluaran == null) {
+        break missingId;
+      }
+
+      id = R.id.rgJenis;
+      RadioGroup rgJenis = ViewBindings.findChildViewById(rootView, id);
+      if (rgJenis == null) {
+        break missingId;
+      }
+
+      id = R.id.rvTransaksi;
+      RecyclerView rvTransaksi = ViewBindings.findChildViewById(rootView, id);
+      if (rvTransaksi == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((ScrollView) rootView, aboutPage, btnExport, btnKeLaporan,
+          btnSimpan, etCatatan, etJumlah, etKategori, rbPemasukan, rbPengeluaran, rgJenis,
+          rvTransaksi);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -3164,6 +3164,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id aboutPage
 id above
 id accelerate
 id accessibility_action_clickable_span
@@ -3252,6 +3253,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnStart
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3352,6 +3354,7 @@ id fixed
 id flip
 id floating
 id forever
+id fragmentContainer
 id fragment_container_view_tag
 id frost
 id fullscreen_header
@@ -3645,6 +3648,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvStatus
 id unchecked
 id uniform
 id unlabeled
@@ -3801,6 +3805,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_about
+layout fragment_home
+layout fragment_settings
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout m3_alert_dialog

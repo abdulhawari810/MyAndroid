@@ -1,12 +1,19 @@
 R_DEF: Internal format may change without notice
 local
+id aboutPage
+id btnStart
 id drawerLayout
+id fragmentContainer
 id nav_about
 id nav_home
 id nav_settings
 id navigationView
 id toolbar
+id tvStatus
 layout activity_main
+layout fragment_about
+layout fragment_home
+layout fragment_settings
 layout nav_header
 menu drawer_menu
 string app_name

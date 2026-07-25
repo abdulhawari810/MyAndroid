@@ -23,16 +23,24 @@ public class HomeFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
 
       binding.btnStart.setOnClickListener(v -> {
+		String btnStartText = binding.btnStart.getText().toString();
+		String btnStartTextDefault = "Mulai Belajar";
+		String btnStartTextEdit = "Selamat Belajar Android Native";
         String btnNotReady = "Belum Mulai";
         String btnReady = "Belajar Android Dimulai 🚀";
         String btnText = binding.tvStatus.getText().toString();
-        Toast.makeText(getContext(), "Selamat Belajar Android Native", Toast.LENGTH_SHORT).show();
-        binding.btnStart.setText("Selamat Belajar Android Native");
+        Toast.makeText(getContext(), btnStartTextEdit, Toast.LENGTH_SHORT).show();
+        binding.btnStart.setText(btnStartEdit);
 
         if(btnText.equals(btnNotReady)){
           
       binding.tvStatus.setText(btnReady);
         }else{
+		  binding.tvStatus.setOnclickListener(v->{
+			  if(btnStartText.equals(btnStartTextEdit){
+				  binding.btnStart.setText(btnStartTextDefault);
+			  }
+		  });
           binding.tvStatus.setText(btnNotReady);
         }
       });
